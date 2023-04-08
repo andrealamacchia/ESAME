@@ -1,6 +1,6 @@
 body{
     background-color: #fff;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     max-width: 1200px;
 }
@@ -11,9 +11,9 @@ height: auto;
 }
 
 header{
-    background-color: black;
+background-color: green;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 30pt;
 }
 
@@ -26,19 +26,19 @@ padding: 20px;
 nav ul{
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
     font-size: 20pt;
 }
 
 section.Tasti a{
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
 }
 
 section.Tasti a:hover{
-        color: #db9646;
+        color: #dad9f7;
         text-decoration: underline;
     }
 
@@ -49,7 +49,7 @@ section.Introduzione {
 }
 
 section.Introduzione img{
-max-width: 480px;
+max-width: 50px;
 max-height: 480px;
 padding-left: 700px;
 }
