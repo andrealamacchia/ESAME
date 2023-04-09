@@ -6,9 +6,9 @@ body{
 }
 
 img{
-max-width: auto;
-height: 2000px;
-text-align: center;
+max-width: none;
+height: 200px;
+text-align: auto;
 }
 
 header{
@@ -21,16 +21,16 @@ background-color: green;
 
 main, footer{
 max-width: 1200px;
-margin: auto;
+margin: center;
 padding: 20px;
 }
 
 nav ul{
     list-style: none;
-    display: flex;
+    display: contents;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
     font-size: 20pt;
 }
 
@@ -53,24 +53,21 @@ section.Introduzione {
 section.Introduzione img{
 max-width: 50px;
 max-height: 480px;
-padding-left: 700px;
-}
-
-section.Introduzione p{
-    max-width: 500px;
+padding-left: 200px;
 }
 
 section.Introduzione p, img{
-padding-top: 20px;
+padding-top: 10%;
 }
 
 footer{
+    font-size: 5pt;
 
 }
 
 .column {
-    float: left;
-    width: 20%;
+    float: right;
+    width: 0%
   }
   
   /* Clear floats after the columns */
