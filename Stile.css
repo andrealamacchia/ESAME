@@ -1,12 +1,12 @@
 body{
     background-color: #fff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0;
-    max-width: 1200px;
+    margin: auto;
+    max-width: 2000px;
 }
 
 img{
-max-width: none;
+max-width: auto;
 height: 200px;
 text-align: auto;
 }
@@ -14,9 +14,10 @@ text-align: auto;
 header{
 background-color: green;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 30pt;
     background-position: center;
+    max-height: max-content;
 }
 
 main, footer{
@@ -28,10 +29,10 @@ padding: 20px;
 nav ul{
     list-style: none;
     display: contents;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 50px;
-    font-size: 20pt;
+    font-size: 10pt;
 }
 
 section.Tasti a{
@@ -41,7 +42,7 @@ section.Tasti a{
 
 section.Tasti a:hover{
         color: #dad9f7;
-        text-decoration: underline;
+        text-decoration: none;
     }
 
 section.Introduzione {
