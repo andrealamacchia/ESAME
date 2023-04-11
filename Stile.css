@@ -31,19 +31,22 @@ nav ul{
     display: contents;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
     font-size: 10pt;
 }
 
 section.Tasti a{
     text-decoration: none;
     color: black;
+    padding: 90px;
+    list-style: none;
     
 }
 
 section.Tasti a:hover{
         color: #dad9f7;
         text-decoration: underline;
+        list-style: none;
         
     }
 
