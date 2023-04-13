@@ -38,7 +38,7 @@ nav ul{
 section.Tasti a{
     text-decoration: none;
     color: black;
-    padding: 90px;
+    padding: 80px;
     list-style: none;
     
 }
@@ -46,7 +46,6 @@ section.Tasti a{
 section.Tasti a:hover{
         color: #dad9f7;
         text-decoration: underline;
-        list-style: none;
         
     }
 
